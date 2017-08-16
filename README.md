@@ -1,0 +1,2 @@
+# skripsiku
+Sekripsi Digital Scoring
