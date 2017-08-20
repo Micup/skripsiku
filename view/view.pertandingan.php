@@ -68,12 +68,16 @@ if($num>=0){
 
         echo "<td>";
         
-        echo "<a href='edit.peserta.php?id=" . $id_pertandingan . "' class='btn btn-warning left-margin'>";
+        echo "<a href='edit.pertandingan.php?id=" . $id_pertandingan . "' class='btn btn-warning left-margin'>";
         echo "<span class='glyphicon glyphicon-edit'></span> Edit";
         echo "</a>";
 
-        echo "<a href='delete.peserta.php?id=" . $id_pertandingan . "' class='btn btn-danger delete-object'>";
+        echo "<a href='delete.pertandingan.php?id=" . $id_pertandingan . "' class='btn btn-danger left-margin'>";
         echo "<span class='glyphicon glyphicon-remove'></span> Delete";
+        echo "</a>";
+
+        echo "<a href='delete.peserta.php?id=" . $id_pertandingan . "' class='btn btn-danger delete-object'>";
+        echo "<span class='glyphicon glyphicon-play-circle'></span> MULAI";
         echo "</a>";
 
         echo "</td>";
